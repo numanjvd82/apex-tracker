@@ -1,0 +1,18 @@
+.search-input {
+  border: none;
+  outline: none;
+  background: var(--navbarBg);
+  padding: 0.8rem 15rem 0.8rem 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  color: white;
+  margin: 1rem 0;
+  transition: all 0.2s ease;
+}
+::placeholder {
+  color: rgb(112, 112, 112);
+}
+
+.search-input:focus {
+  border: 1px solid white;
+}

@@ -1,0 +1,40 @@
+:root {
+  --navbarBg: #2e3137;
+  --logoRed: #b02929;
+  --descriptionText: #979797;
+  --cardBg: rgba(46, 49, 55, 0.88);
+  --cardBtnColor: #b53d3d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: white;
+  background-image: url(./assets/bg.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100vh;
+  z-index: -1;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: inset 120px 100px 250px #000;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}

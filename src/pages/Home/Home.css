@@ -1,0 +1,47 @@
+.brand-heading {
+  text-align: center;
+  line-height: 40px;
+  letter-spacing: 2px;
+  margin-top: 0.7rem;
+}
+
+.brand-outstand {
+  color: var(--logoRed);
+}
+
+.description-text {
+  text-align: center;
+  line-height: 40px;
+  color: var(--descriptionText);
+}
+
+.cards-container {
+  background: var(--cardBg);
+  margin: 1.5rem 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-image: url(../../assets/1.png);
+  position: relative;
+  background-size: cover;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem;
+  width: 250px;
+  height: 300px;
+  transition: all 0.2s ease-in-out;
+  align-self: center;
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card:hover {
+  transform: scale(1.02) translateY(-5px);
+}
