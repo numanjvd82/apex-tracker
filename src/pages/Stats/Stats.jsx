@@ -4,10 +4,13 @@ import { getStats } from '../../redux/actions/apex';
 import { SiOrigin, SiPlaystation, SiXbox } from 'react-icons/si';
 import Icon from '../../components/Icon';
 import './Stats.css';
+import { useDispatch } from 'react-redux';
 
 const Stats = () => {
   const [playerName, setPlayerName] = useState('');
   const [platform, setPlatform] = useState('PC');
+
+  const dispatch = useDispatch();
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -15,12 +18,10 @@ const Stats = () => {
     if (!name) {
       alert('Please enter a valid player name');
     } else {
-      console.log(name, platform);
+      dispatch(getStats(name, platform));
       setPlayerName('');
     }
   };
-
-  console.log(platform);
 
   return (
     <>

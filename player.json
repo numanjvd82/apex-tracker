@@ -1,0 +1,524 @@
+{
+  "global": {
+    "name": "SlayerN5",
+    "uid": 1003090187171,
+    "avatar": "https://secure.download.dm.origin.com/production/avatar/prod/userAvatar/28323888/416x416.JPEG",
+    "platform": "PC",
+    "level": 932,
+    "toNextLevelPercent": 85,
+    "internalUpdateCount": 35931,
+    "bans": {
+      "isActive": false,
+      "remainingSeconds": 0,
+      "last_banReason": "COMPETITIVE_DODGE_COOLDOWN"
+    },
+    "rank": {
+      "rankScore": 5545,
+      "rankName": "Platinum",
+      "rankDiv": 3,
+      "ladderPosPlatform": -1,
+      "rankImg": "https://api.mozambiquehe.re/assets/ranks/platinum3.png",
+      "rankedSeason": "season10_split_2"
+    },
+    "arena": {
+      "rankScore": 4716,
+      "rankName": "Gold",
+      "rankDiv": 1,
+      "ladderPosPlatform": -1,
+      "rankImg": "https://api.mozambiquehe.re/assets/ranks/gold1.png",
+      "rankedSeason": "arenass10"
+    },
+    "battlepass": {
+      "level": "111",
+      "history": {
+        "season1": -1,
+        "season2": -1,
+        "season3": 111,
+        "season4": 111,
+        "season5": -1,
+        "season6": -1,
+        "season7": -1,
+        "season8": -1,
+        "season9": -1,
+        "season10": -1
+      }
+    },
+    "badges": [
+      {
+        "name": "Team. Work.",
+        "value": 4
+      },
+      {
+        "name": "The Old Ways",
+        "value": 0
+      },
+      {
+        "name": "You're Tiering Me Apart: Ranked Season 5",
+        "value": 9
+      }
+    ]
+  },
+  "realtime": {
+    "lobbyState": "open",
+    "isOnline": 0,
+    "isInGame": 0,
+    "canJoin": 0,
+    "partyFull": 0,
+    "selectedLegend": "Lifeline",
+    "currentState": "offline",
+    "currentStateSinceTimestamp": -1,
+    "currentStateAsText": "Offline"
+  },
+  "legends": {
+    "selected": {
+      "LegendName": "Lifeline",
+      "data": [
+        {
+          "name": "Special event kills",
+          "value": 4828,
+          "key": "specialEvent_kills"
+        },
+        {
+          "name": "Special event wins",
+          "value": 240,
+          "key": "specialEvent_wins"
+        },
+        {
+          "name": "Special event damage",
+          "value": 1408022,
+          "key": "specialEvent_damage"
+        }
+      ],
+      "gameInfo": {
+        "skin": "London Calling",
+        "skinRarity": "Legendary",
+        "frame": "Rookie Card",
+        "frameRarity": "Common",
+        "pose": "Peace",
+        "poseRarity": "Common",
+        "intro": "Remember this face",
+        "introRarity": "Common",
+        "badges": [
+          {
+            "name": "Assassin",
+            "value": 5,
+            "category": "Lifeline"
+          },
+          {
+            "name": "Reinforcement Recall",
+            "value": 0,
+            "category": "Lifeline"
+          },
+          {
+            "name": "Lifeline's Wrath",
+            "value": 4,
+            "category": "Lifeline"
+          }
+        ]
+      },
+      "ImgAssets": {
+        "icon": "https://api.mozambiquehe.re/assets/icons/lifeline.png",
+        "banner": "https://api.mozambiquehe.re/assets/banners/lifeline.jpg"
+      }
+    },
+    "all": {
+      "Revenant": {
+        "gameInfo": {
+          "badges": [
+            {
+              "name": "Revenant's Wrath",
+              "value": 3
+            }
+          ]
+        },
+        "ImgAssets": {
+          "icon": "https://api.mozambiquehe.re/assets/icons/revenant.png",
+          "banner": "https://api.mozambiquehe.re/assets/banners/revenant.jpg"
+        }
+      },
+      "Crypto": {
+        "ImgAssets": {
+          "icon": "https://api.mozambiquehe.re/assets/icons/crypto.png",
+          "banner": "https://api.mozambiquehe.re/assets/banners/crypto.jpg"
+        }
+      },
+      "Horizon": {
+        "ImgAssets": {
+          "icon": "https://api.mozambiquehe.re/assets/icons/horizon.png",
+          "banner": "https://api.mozambiquehe.re/assets/banners/horizon.jpg"
+        }
+      },
+      "Gibraltar": {
+        "data": [
+          {
+            "name": "Special event kills",
+            "value": 894,
+            "key": "specialEvent_kills"
+          },
+          {
+            "name": "Special event damage",
+            "value": 277794,
+            "key": "specialEvent_damage"
+          },
+          {
+            "name": "Special event wins",
+            "value": 41,
+            "key": "specialEvent_wins"
+          }
+        ],
+        "gameInfo": {
+          "badges": [
+            {
+              "name": "Apex Gibraltar",
+              "value": 4
+            },
+            {
+              "name": "Gibraltar's Wrath",
+              "value": 4
+            },
+            {
+              "name": "Assassin",
+              "value": 4
+            }
+          ]
+        },
+        "ImgAssets": {
+          "icon": "https://api.mozambiquehe.re/assets/icons/gibraltar.png",
+          "banner": "https://api.mozambiquehe.re/assets/banners/gibraltar.jpg"
+        }
+      },
+      "Wattson": {
+        "ImgAssets": {
+          "icon": "https://api.mozambiquehe.re/assets/icons/wattson.png",
+          "banner": "https://api.mozambiquehe.re/assets/banners/wattson.jpg"
+        }
+      },
+      "Fuse": {
+        "ImgAssets": {
+          "icon": "https://api.mozambiquehe.re/assets/icons/fuse.png",
+          "banner": "https://api.mozambiquehe.re/assets/banners/fuse.jpg"
+        }
+      },
+      "Bangalore": {
+        "data": [
+          {
+            "name": "Special event kills",
+            "value": 1019,
+            "key": "specialEvent_kills"
+          },
+          {
+            "name": "Special event damage",
+            "value": 303449,
+            "key": "specialEvent_damage"
+          },
+          {
+            "name": "Special event wins",
+            "value": 33,
+            "key": "specialEvent_wins"
+          }
+        ],
+        "ImgAssets": {
+          "icon": "https://api.mozambiquehe.re/assets/icons/bangalore.png",
+          "banner": "https://api.mozambiquehe.re/assets/banners/bangalore.jpg"
+        }
+      },
+      "Wraith": {
+        "data": [
+          {
+            "name": "Kills",
+            "value": 4361,
+            "key": "kills"
+          },
+          {
+            "name": "Damage",
+            "value": 1272827,
+            "key": "damage"
+          },
+          {
+            "name": "Season 5 Wins",
+            "value": 22,
+            "key": "wins_season_5"
+          },
+          {
+            "name": "Special event kills",
+            "value": 5166,
+            "key": "specialEvent_kills"
+          },
+          {
+            "name": "Special event damage",
+            "value": 1534676,
+            "key": "specialEvent_damage"
+          },
+          {
+            "name": "Special event wins",
+            "value": 221,
+            "key": "specialEvent_wins"
+          }
+        ],
+        "gameInfo": {
+          "badges": [
+            {
+              "name": "Wraith's Wrath",
+              "value": 4
+            }
+          ]
+        },
+        "ImgAssets": {
+          "icon": "https://api.mozambiquehe.re/assets/icons/wraith.png",
+          "banner": "https://api.mozambiquehe.re/assets/banners/wraith.jpg"
+        }
+      },
+      "Octane": {
+        "data": [
+          {
+            "name": "Damage",
+            "value": 900664,
+            "key": "damage"
+          },
+          {
+            "name": "Top 3",
+            "value": 279,
+            "key": "top_3"
+          }
+        ],
+        "ImgAssets": {
+          "icon": "https://api.mozambiquehe.re/assets/icons/octane.png",
+          "banner": "https://api.mozambiquehe.re/assets/banners/octane.jpg"
+        }
+      },
+      "Bloodhound": {
+        "ImgAssets": {
+          "icon": "https://api.mozambiquehe.re/assets/icons/bloodhound.png",
+          "banner": "https://api.mozambiquehe.re/assets/banners/bloodhound.jpg"
+        }
+      },
+      "Caustic": {
+        "ImgAssets": {
+          "icon": "https://api.mozambiquehe.re/assets/icons/caustic.png",
+          "banner": "https://api.mozambiquehe.re/assets/banners/caustic.jpg"
+        }
+      },
+      "Lifeline": {
+        "data": [
+          {
+            "name": "Kills",
+            "value": 1432,
+            "key": "kills"
+          },
+          {
+            "name": "Care items for mates",
+            "value": 503,
+            "key": "dropped_items_for_squadmates"
+          },
+          {
+            "name": "Season 6 Wins",
+            "value": 6,
+            "key": "wins_season_6"
+          },
+          {
+            "name": "Special event kills",
+            "value": 4828,
+            "key": "specialEvent_kills"
+          },
+          {
+            "name": "Special event damage",
+            "value": 1408022,
+            "key": "specialEvent_damage"
+          },
+          {
+            "name": "Special event wins",
+            "value": 240,
+            "key": "specialEvent_wins"
+          }
+        ],
+        "gameInfo": {
+          "badges": [
+            {
+              "name": "Assassin",
+              "value": 5
+            },
+            {
+              "name": "Reinforcement Recall",
+              "value": 0
+            },
+            {
+              "name": "Lifeline's Wrath",
+              "value": 4
+            }
+          ]
+        },
+        "ImgAssets": {
+          "icon": "https://api.mozambiquehe.re/assets/icons/lifeline.png",
+          "banner": "https://api.mozambiquehe.re/assets/banners/lifeline.jpg"
+        }
+      },
+      "Pathfinder": {
+        "data": [
+          {
+            "name": "Kills",
+            "value": 894,
+            "key": "kills"
+          },
+          {
+            "name": "Grapple travel distance",
+            "value": 85977,
+            "key": "grapple_travel_distance"
+          },
+          {
+            "name": "Grand Soiree damage",
+            "value": 260470,
+            "key": "grandsoiree_damage"
+          }
+        ],
+        "gameInfo": {
+          "badges": [
+            {
+              "name": "Pathfinder's Wrath",
+              "value": 0
+            }
+          ]
+        },
+        "ImgAssets": {
+          "icon": "https://api.mozambiquehe.re/assets/icons/pathfinder.png",
+          "banner": "https://api.mozambiquehe.re/assets/banners/pathfinder.jpg"
+        }
+      },
+      "Loba": {
+        "ImgAssets": {
+          "icon": "https://api.mozambiquehe.re/assets/icons/loba.png",
+          "banner": "https://api.mozambiquehe.re/assets/banners/loba.jpg"
+        }
+      },
+      "Mirage": {
+        "ImgAssets": {
+          "icon": "https://api.mozambiquehe.re/assets/icons/mirage.png",
+          "banner": "https://api.mozambiquehe.re/assets/banners/mirage.jpg"
+        }
+      },
+      "Rampart": {
+        "data": [
+          {
+            "name": "Season 6 Wins",
+            "value": 6,
+            "key": "wins_season_6"
+          },
+          {
+            "name": "Special event kills",
+            "value": 93,
+            "key": "specialEvent_kills"
+          }
+        ],
+        "gameInfo": {
+          "badges": [
+            {
+              "name": "Apex Rampart",
+              "value": 3
+            }
+          ]
+        },
+        "ImgAssets": {
+          "icon": "https://api.mozambiquehe.re/assets/icons/rampart.png",
+          "banner": "https://api.mozambiquehe.re/assets/banners/rampart.jpg"
+        }
+      },
+      "Valkyrie": {
+        "ImgAssets": {
+          "icon": "https://api.mozambiquehe.re/assets/icons/valkyrie.png",
+          "banner": "https://api.mozambiquehe.re/assets/banners/valkyrie.jpg"
+        }
+      },
+      "Seer": {
+        "data": [
+          {
+            "name": "Kills",
+            "value": 302,
+            "key": "kills"
+          }
+        ],
+        "gameInfo": {
+          "badges": [
+            {
+              "name": "Seer's Wrath",
+              "value": 3
+            },
+            {
+              "name": "Squad Wipe",
+              "value": 0
+            }
+          ]
+        },
+        "ImgAssets": {
+          "icon": "https://api.mozambiquehe.re/assets/icons/seer.png",
+          "banner": "https://api.mozambiquehe.re/assets/banners/seer.jpg"
+        }
+      },
+      "Ash": {
+        "ImgAssets": {
+          "icon": "https://api.mozambiquehe.re/assets/icons/ash.png",
+          "banner": "https://api.mozambiquehe.re/assets/banners/ash.jpg"
+        }
+      }
+    }
+  },
+  "mozambiquehere_internal": {
+    "isNewToDB": false,
+    "claimedBy": "1635180532",
+    "APIAccessType": "BASIC",
+    "ClusterID": "5",
+    "rate_limit": {
+      "max_per_second": 3,
+      "current_req": "1"
+    },
+    "clusterSrv": "MAIN-CLUSTER"
+  },
+  "total": {
+    "specialEvent_kills": {
+      "name": "Special event kills",
+      "value": 12000
+    },
+    "specialEvent_damage": {
+      "name": "Special event damage",
+      "value": 3523941
+    },
+    "specialEvent_wins": {
+      "name": "Special event wins",
+      "value": 535
+    },
+    "kills": {
+      "name": "Kills",
+      "value": 6989
+    },
+    "damage": {
+      "name": "Damage",
+      "value": 2173491
+    },
+    "wins_season_5": {
+      "name": "Season 5 Wins",
+      "value": 22
+    },
+    "top_3": {
+      "name": "Top 3",
+      "value": 279
+    },
+    "dropped_items_for_squadmates": {
+      "name": "Care items for mates",
+      "value": 503
+    },
+    "wins_season_6": {
+      "name": "Season 6 Wins",
+      "value": 12
+    },
+    "grapple_travel_distance": {
+      "name": "Grapple travel distance",
+      "value": 85977
+    },
+    "grandsoiree_damage": {
+      "name": "Grand Soiree damage",
+      "value": 260470
+    },
+    "kd": {
+      "value": "-1",
+      "name": "KD"
+    }
+  }
+}
