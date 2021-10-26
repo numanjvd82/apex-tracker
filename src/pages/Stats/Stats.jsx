@@ -5,6 +5,7 @@ import { SiOrigin, SiPlaystation, SiXbox } from 'react-icons/si';
 import Icon from '../../components/Icon';
 import './Stats.css';
 import { useDispatch } from 'react-redux';
+import StatsCard from '../../components/StatsCard/StatsCard';
 
 const Stats = () => {
   const [playerName, setPlayerName] = useState('');
@@ -66,6 +67,7 @@ const Stats = () => {
           Submit
         </button>
       </div>
+      <StatsCard />
     </>
   );
 };

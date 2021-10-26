@@ -54,3 +54,9 @@
   padding: 0.3rem 0.7rem;
   border-radius: 5px;
 }
+
+.btn-submit {
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 0.7rem;
+}
