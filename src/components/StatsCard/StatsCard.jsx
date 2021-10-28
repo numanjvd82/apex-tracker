@@ -1,3 +1,5 @@
+import { SiOrigin } from 'react-icons/si';
+import Icon from '../Icon';
 import './StatsCard.css';
 
 const StatsCard = () => {
@@ -5,7 +7,25 @@ const StatsCard = () => {
     <>
       <div className="results">
         <div className="results-card">
-          <h1>SlayerN5</h1>
+          <div className="basic-stats">
+            <img
+              src="https://secure.download.dm.origin.com/production/avatar/prod/userAvatar/28323888/416x416.JPEG"
+              alt=""
+              className="avatar-img"
+            />
+            <h1>SlayerN5</h1>
+            <span className="current current-lvl">LVL: 932</span>
+            <div className="ban-detail">
+              <span className="current current-ban">No Bans Right Now</span>
+              <span className="current last-ban">
+                Last Ban: Competitive Dodge Cooldown
+              </span>
+            </div>
+            <div className="platform-icon">
+              <Icon icon={<SiOrigin size={25} />} />
+            </div>
+          </div>
+
           <div className="col-right">
             <div className="img">
               <img

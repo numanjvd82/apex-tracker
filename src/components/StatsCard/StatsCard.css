@@ -12,6 +12,7 @@
 
 .results h1 {
   text-align: center;
+  margin-left: 1rem;
 }
 
 .col-right {
@@ -33,6 +34,31 @@
   object-fit: cover;
 }
 
+.avatar-img {
+  width: 70px;
+  height: auto;
+  border-radius: 50%;
+  object-fit: contain;
+  margin-left: 1rem;
+  justify-items: flex-start;
+}
+
+.basic-stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid rgba(0, 0, 0);
+  margin-bottom: 1rem;
+}
+
+.platform-icon {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 0.2rem;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: 1rem;
+}
+
 .rank-card {
   padding: 1rem 2rem;
   border-radius: 10px;
@@ -41,4 +67,23 @@
 
 .rank-number {
   font-size: 1.5rem;
+}
+
+.current {
+  margin-left: 1rem;
+  font-weight: 600;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 0.2rem 0.3rem;
+  border-radius: 5px;
+}
+
+.current-ban {
+  margin-bottom: 0.5rem;
+}
+
+.ban-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
