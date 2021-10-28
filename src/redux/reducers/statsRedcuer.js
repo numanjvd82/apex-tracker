@@ -2,7 +2,7 @@ import { GET_STATS } from '../constants/apex';
 
 const initialState = {
   stats: {},
-  loading: false,
+  loading: true,
 };
 
 const statsReducer = (state = initialState, action) => {
