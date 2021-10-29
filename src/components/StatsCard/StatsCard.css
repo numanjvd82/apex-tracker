@@ -23,7 +23,7 @@
 }
 
 .img {
-  width: 250px;
+  width: 120px;
   height: auto;
   justify-self: center;
 }
@@ -86,4 +86,23 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+
+/* Legends Stats */
+
+.legend-stats {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid rgba(0, 0, 0);
+  margin-bottom: 1rem;
+}
+
+.selected {
+  margin-left: 0.5rem;
+}
+
+.legend-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--logoRed);
 }

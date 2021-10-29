@@ -5,6 +5,7 @@ import './StatsCard.css';
 const StatsCard = () => {
   return (
     <>
+      {/* Stats Header */}
       <div className="results">
         <div className="results-card">
           <div className="basic-stats">
@@ -26,21 +27,33 @@ const StatsCard = () => {
             </div>
           </div>
 
-          <div className="col-right">
-            <div className="img">
-              <img
-                src="https://api.mozambiquehe.re/assets/icons/lifeline.png"
-                alt=""
-              />
+          {/* Legends Stats */}
+          <div className="legends-stats">
+            <div className="selected-legend">
+              <span className="selected">
+                Selected: <span className="legend-name">Lifeline</span>
+              </span>
+              <div className="img">
+                <img
+                  src="https://api.mozambiquehe.re/assets/icons/lifeline.png"
+                  alt="Legend"
+                />
+              </div>
+              .
             </div>
+          </div>
+
+          {/* Ranked Stats */}
+          <div className="col-right">
             <div className="rank-card">
               <div className="rank-img">
                 <img
                   src="https://api.mozambiquehe.re/assets/ranks/platinum3.png"
-                  alt=""
+                  alt="Rank"
                 />
               </div>
               <div className="rank-name">
+                <span className="rp">RP 5424</span>
                 <h3>
                   Platinum <span className="rank-number">3</span>
                 </h3>
